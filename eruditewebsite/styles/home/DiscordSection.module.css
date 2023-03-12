@@ -1,0 +1,25 @@
+.discord {
+  padding: 0 1em;
+  margin-top: 2em;
+}
+
+.link {
+  display: inline-flex;
+  padding: 0 2em;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 1.5em;
+
+  background: pink;
+  color: black;
+  border-radius: .5em;
+}
+
+.link:hover {
+  background: transparent;
+}
+
+.icon {
+  width: 4.25em;
+}

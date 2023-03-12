@@ -1,0 +1,10 @@
+.payment-wrapper {
+    display: flex;
+    padding: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.qr {
+    height: 50vh;
+}

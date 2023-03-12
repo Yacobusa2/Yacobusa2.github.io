@@ -1,0 +1,49 @@
+.gamefull {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.stick {
+    position: absolute;
+
+    /* transform: translate(-50%, -50%); */
+    cursor: pointer;
+    border-radius: 100%;
+    opacity: .9;
+}
+
+.stick:hover {
+    opacity: 1;
+}
+
+.movement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: 10em;
+    width: 10em;
+    
+    padding: 1.25em;
+    margin: 1.25em;
+    
+    border: .075em solid rgb(130, 130, 130);
+    border-radius: 100%;
+    z-index: 1;
+
+    opacity: .75;
+}

@@ -1,0 +1,39 @@
+/* .wrapper * {
+  box-sizing: content-box;
+} */
+
+.fitness-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 var(--gutter);
+
+  flex-wrap: wrap;
+
+  position: relative;
+}
+
+.blurb {
+  padding-top: 10em;
+}
+
+.fitness-logo-mark {
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.fitness-logo-wrapper {
+  /* position: absolute;
+  top: 1em;
+  left: 1em; */
+}
+
+.logo {
+  width: 12em;
+  width: 8em;
+}

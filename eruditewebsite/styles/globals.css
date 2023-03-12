@@ -1,0 +1,75 @@
+:root {
+  --gutter: 1em;
+
+  --text-color: rgb(91, 72, 72);
+  --orange: #ed6d4d;
+  --pink: #E03654;
+}
+
+html, body, #__next {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+
+  /* Default font colour */
+  /* color: var(--text-color); */
+}
+
+html {
+  background: var(--pink);
+
+  transition: background-color .3s;
+
+  font-weight: 100;
+
+  font-size: 1.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+.collapseText {
+  display: none;
+}
+
+.heading {
+  margin: 0;
+  font-weight: 100;
+  /* font-size: 3em; */
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 1.65em;
+  }
+  .collapseText {
+    display: inline;
+  }
+}
+
+.fitness-bg {
+  background-color: rgb(57, 61, 221);
+  color: rgb(218, 219, 255);
+
+  font-weight: 300;
+}
+.erudite-bg {
+  background-color: var(--pink);
+  color: rgb(218, 219, 255);
+
+  /* background-image: url('https://cdn.discordapp.com/attachments/1020108080052178994/1028050770584670228/20220922_063334_0000.png'); */
+  /* background-position: center; */
+}
+
+#logo * {
+  transition: fill 3s ease;
+}
+
+
+

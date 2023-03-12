@@ -1,0 +1,7 @@
+.warning {
+  position: absolute;
+  top: .5em;
+  left: .5em;
+  color: rgb(116, 116, 116);
+  /* width: 100%; */
+}

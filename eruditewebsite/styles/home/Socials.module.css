@@ -1,0 +1,26 @@
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.socials-icon-link {
+  width: 3em;
+  margin-bottom: .75em;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials-icon {
+  width: 100%;
+  transition: opacity .1s;
+}
+.socials-icon:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 600px) {
+}

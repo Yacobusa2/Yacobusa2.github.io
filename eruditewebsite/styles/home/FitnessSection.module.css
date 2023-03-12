@@ -1,0 +1,59 @@
+.fitness {
+  padding: 0 1em;
+  margin-top: 2em;
+}
+
+.list {
+  padding-left: 1.5em;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  
+  margin-top: 1em;
+  padding: 0 var(--gutter);
+}
+
+.actions a {
+  margin: 0 .1em;
+}
+
+.actions a:first-child {
+  margin-left: 0;
+}
+
+.actions a:last-child {
+  margin-right: 0;
+}
+
+.primary, .secondary {
+  display: inline-flex;
+
+  flex: calc(50% - .25em) 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+
+  padding: 1em;
+  border-radius: .5em;
+
+  font-size: 1.135em;
+}
+
+.primary:hover, .secondary:hover {
+  opacity: .8;
+}
+
+.primary {
+  background: #b90d3d;
+}
+.secondary {
+  background: #e7e7e7;
+  color: rgb(60, 64, 67);
+}
+
+
+.fitness-placeholder {
+  width: 100%;
+}

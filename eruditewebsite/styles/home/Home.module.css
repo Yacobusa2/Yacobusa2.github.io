@@ -1,0 +1,29 @@
+.bio {
+  color: rgb(218, 219, 255);
+  padding: 0 var(--gutter);
+  margin-top: 1.5em;
+  font-size: 1.25em;
+}
+
+.cta:hover, .cta_secondary:hover {
+  opacity: .8;
+  color: white;
+}
+
+.cta, .cta_secondary {
+  background-color: #b90d3d;
+  color: rgb(238, 178, 193);
+  border-radius: .5em;
+
+  font-size: 1.5em;
+  transition: opacity .2s, right .2s;
+
+  padding: .2em 1em;
+  border-radius: .5em;
+}
+
+.cta_secondary {
+  background-color: blueviolet;
+  margin-left: .25em;
+}
+
